@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>🎨 OPEN PAINT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A mini paint app made with p5.js">
+  <meta name="author" content="Soumik Das">
+
+  <!-- importing p5.js and tailwind css library -->
+  <script src="./lib/tailwind.js"></script>
+  <script src="./lib/p5.js"></script>
+
+  <!-- importing main -->
+  <script src="sketch.js"></script>
+
+  <!-- add extra scripts below -->
+  <script src="toolbox.js"></script>
+  <script src="colourPalette.js"></script>
+  <script src="helperFunctions.js"></script>
+
+  <!-- add tools below -->
+  <script src="./tools/freehandTool.js"></script>
+  <script src="./tools/lineToTool.js"></script>
+  <script src="./tools/sprayCanTool.js"></script>
+  <script src="./tools/mirrorDrawTool.js"></script>
+  <script src="./tools/shapeToTool.js"></script>
+  <script src="./tools/eraserTool.js"></script>
+  <script src="./tools/textTool.js"></script>
+
+  <!-- Importing stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- main container -->
+  <div class="wrapper w-full min-h-screen bg-black text-white bg-opacity-20">
+    <!-- header -->
+    <div
+      class="box header p-4 text-2xl font-semibold bg-blue-600 flex flex-row space-x-6 justify-start items-center shadow-md slide-top">
+      <p class="font-mono">OPEN PAINT 🎨</p>
+      <!-- Clear and Save Image buttons -->
+      <button id="clearButton"
+        class="font-medium text-lg bg-white text-black p-1 px-4 rounded-lg drop-shadow-lg hover:scale-90">Clear</button>
+      <button id="saveImageButton"
+        class="font-medium text-lg bg-white text-black p-1 px-4 rounded-lg drop-shadow-lg hover:scale-90">Save
+        Image</button>
+      <!-- Extra options for the tools are added here -->
+      <div class="border-l-2 border-black pl-6 flex flex-row justify-start items-center space-x-6 relative">
+        <!-- color picker - toggle button -->
+        <button id="toggleButton" class="drop-shadow-lg hover:scale-90">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Colorwheel.svg" alt="color changer"
+            class="w-10 h-auto" />
+        </button>
+        <!-- options for the tools -->
+        <div class="box options flex flex-row items-center justify-start space-x-4">
+        </div>
+        <!-- color palette -->
+        <div
+          class="slide-top hide-me hidden box colourPalette w-[380px] h-48 grid-cols-6 gap-4 absolute top-16 left-0 bg-white p-2 rounded-lg border border-black bg-opacity-30 backdrop-blur-md border-dashed shadow-md">
+        </div>
+      </div>
+    </div>
+    <!-- main content -->
+    <div class="flex flex-row w-full h-[92.2vh] space-x-4 p-4">
+      <!-- sidebar ot tools picker -->
+      <div
+        class="box w-20 h-fit shadow-md bg-white border border-blue-600 border-dashed flex flex-col space-y-3 p-3 rounded-lg slide-in"
+        id="sidebar">
+      </div>
+      <!-- canvas -->
+      <div id="content" class="w-full"></div>
+    </div>
+  </div>
+</body>
+
+</html>
