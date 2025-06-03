@@ -22,7 +22,7 @@
     <a href="https://github.com/FalconEthics/Ms-Paint-Lite"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://Ms-Paint-Lite-falconethics.vercel.app/">View Demo</a>
+    <a href="https://falconethics.github.io/Ms-Paint-Lite/">View Demo</a>
     ·
     <a href="https://github.com/FalconEthics/Ms-Paint-Lite/issues">Report Bug</a>
     ·
@@ -30,7 +30,7 @@
   </p>
 </div>
 
-## <a href="https://Ms-Paint-Lite-falconethics.vercel.app/">Open Site</a>
+## <a href="https://falconethics.github.io/Ms-Paint-Lite/">Open Site</a>
 
 <!-- ABOUT THE PROJECT -->
 
@@ -52,14 +52,18 @@
   </ol>
 </details>
 
-[![Product Name Screen Shot][product-screenshot]](https://Ms-Paint-Lite-falconethics.vercel.app/)
-In my first semester at uni, I played around with p5.js and created a small project called "Ms Paint Lite." It's a stripped-down version of the classic Microsoft Paint from my childhood.
+[![Product Name Screen Shot][product-screenshot]](https://falconethics.github.io/Ms-Paint-Lite/)
+In my first semester at uni, I played around with p5.js and created a small project called "Ms Paint Lite." It's a
+stripped-down version of the classic Microsoft Paint from my childhood.
 
-I aimed for simplicity, focusing on basic features to replicate the nostalgic feel of the original. Through this project, I got the hang of canvas manipulation and learned how to make things appear and move on the screen.
+I aimed for simplicity, focusing on basic features to replicate the nostalgic feel of the original. Through this
+project, I got the hang of canvas manipulation and learned how to make things appear and move on the screen.
 
-While keeping it simple, Ms Paint Lite became my canvas playground, teaching me the ropes of coding for creative purposes. It was a cool experience that made me appreciate the potential of canvas-based apps.
+While keeping it simple, Ms Paint Lite became my canvas playground, teaching me the ropes of coding for creative
+purposes. It was a cool experience that made me appreciate the potential of canvas-based apps.
 
-Though it's a humble project, Ms Paint Lite laid the foundation for my understanding of digital art tools. It's a reminder that even small apps can be stepping stones for bigger things down the road.
+Though it's a humble project, Ms Paint Lite laid the foundation for my understanding of digital art tools. It's a
+reminder that even small apps can be stepping stones for bigger things down the road.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -73,7 +77,6 @@ Here are all the tools used in the build.
 * [![Git][Git.com]][Git-url] - Deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## Contributing
 
@@ -122,7 +125,6 @@ Distributed under the GNU License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 
 ## Contact
-
 
 <ul>
 <li><a href="https://www.linkedin.com/in/soumik-das-profile/"> LinkedIn Profile</a></li>
